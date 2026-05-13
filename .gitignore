@@ -1,0 +1,26 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+
+# Data file (live, not committed)
+task-manager/backend/data.json
+
+# Frontend
+task-manager/frontend/node_modules/
+task-manager/frontend/dist/
+task-manager/frontend/.vite/
+
+# Env / secrets
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude local settings
+.claude/settings.local.json
+.mcp.json
